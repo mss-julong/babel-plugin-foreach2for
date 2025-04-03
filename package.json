@@ -1,0 +1,17 @@
+{
+  "name": "babel-foreach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transform": "babel ./src/input.js -o ./src/output.js",
+    "test": "babel ./src/test-cases.js -o ./src/test-output.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10"
+  }
+}
