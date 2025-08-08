@@ -1,3 +1,3 @@
 module.exports = {
-  plugins: ["./src/plugin.js"]
+  plugins: ["./src/plugin.js"]  
 };
